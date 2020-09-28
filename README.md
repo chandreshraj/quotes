@@ -1,4 +1,4 @@
 # quotes-Generator-to-tweet
 # simple project to brush my Html and css knowledge
 
-![Test Image 6](master/page.JPG.png)
+![Quote generator page](https://github.com/chandreshraj/quotes-Generator-to-tweet/blob/master/page.JPG)
