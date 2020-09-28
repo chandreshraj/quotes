@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montez&display=swap");
 
 html {
   box-sizing: border-box;
@@ -76,6 +76,28 @@ button:active {
 
 .twitter-button:hover {
   color: #38a1f3;
+}
+
+.fa-twitter {
+  font-size: 1.5rem;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #333; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 0.5s alternate-reverse infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* media Query */
